@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-pfvk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0037-tenant/cin4s-839-0037-app/devfile-sample-pfvk@sha256:806949cdb9704081c2c9b64582a556c4cefde2aecb317a74f510869d22149dc5
         name: my-nodejs
         ports:
         - containerPort: 3001
